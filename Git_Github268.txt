@@ -8,3 +8,6 @@ To create a repository (repo) on our local machine:
 6. To check the status of the code in the Working Space and Staging Area, use the command git status.
 7. To view the versions created in the Commit Store (the place where versions are stored), use the command git log --oneline.
 8. To send the created version to GitHub, use git push <GitHub repository URL>. If it is a repository we will use frequently, we can first run git remote add origin <repo URL> once and then use git push -u master to send the code to GitHub.
+9. To pull the code sent to GitHub into another working environment, use the command git pull <GitHub repo URL>.
+10. To see the address linked to our local repository, use the command git remote -v.
+11. If there is a change made on the GitHub side, since the address is already defined, it is sufficient to simply use the git pull command. Similarly, since the address is already defined, we can send our code using only the git push command.
