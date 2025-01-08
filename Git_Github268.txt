@@ -2,3 +2,6 @@ To create a repository (repo) on our local machine:
 
 1. Select the folder where we will work or create a new folder, and open the terminal by typing cmd in the address bar of the folder path and pressing Enter. This opens the terminal in the folder's directory.
 2. In the terminal opened at this directory, type git init (in lowercase). When you see the message Initialized empty Git repository, it means we have created an empty repository in this workspace.
+3. After running git init, the name of our workspace is referred to as the Working Space.
+4.Use the command git add . to move the code from the Working Space to the Staging Area, which is the waiting area for changes.
+5. To create a version from the code in the Staging Area, use the command git commit -m "version name" (usually, the date is written as the version name). It does not matter whether there is a space after -m.
