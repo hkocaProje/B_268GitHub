@@ -5,3 +5,6 @@ To create a repository (repo) on our local machine:
 3. After running git init, the name of our workspace is referred to as the Working Space.
 4.Use the command git add . to move the code from the Working Space to the Staging Area, which is the waiting area for changes.
 5. To create a version from the code in the Staging Area, use the command git commit -m "version name" (usually, the date is written as the version name). It does not matter whether there is a space after -m.
+6. To check the status of the code in the Working Space and Staging Area, use the command git status.
+7. To view the versions created in the Commit Store (the place where versions are stored), use the command git log --oneline.
+8. To send the created version to GitHub, use git push <GitHub repository URL>. If it is a repository we will use frequently, we can first run git remote add origin <repo URL> once and then use git push -u master to send the code to GitHub.
