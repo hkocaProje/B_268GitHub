@@ -1,4 +1,4 @@
-To create a repository (repo) on our local machine:
+--To create a repository (repo) on our local machine:
 
 1. Select the folder where we will work or create a new folder, and open the terminal by typing cmd in the address bar of the folder path and pressing Enter. This opens the terminal in the folder's directory.
 2. In the terminal opened at this directory, type git init (in lowercase). When you see the message Initialized empty Git repository, it means we have created an empty repository in this workspace.
@@ -12,5 +12,16 @@ To create a repository (repo) on our local machine:
 10. To see the address linked to our local repository, use the command git remote -v.
 11. If there is a change made on the GitHub side, since the address is already defined, it is sufficient to simply use the git pull command. Similarly, since the address is already defined, we can send our code using only the git push command.
 
-Restore, Branch, and Stash Commands
+--Restore, Branch, and Stash Commands
 
+1. Cancel Changes in Working Space and Staging Area:
+
+To undo updates made in the Working Space, use the following command:
+git restore .
+This will revert the changes in the working space.
+
+To revert changes from the Staging Area back to the working space, use:
+git restore --staged .
+
+If you want to remove changes from both the working space and the staging area entirely, use:
+git reset --hard
