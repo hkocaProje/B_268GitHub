@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Github_Test
 GitHub-Tes-2
 GitHub_Test_3
 git branch update
+=======
+Github_Test
+>>>>>>> 62e25e8eb9125788c200351fe8f6ac7feab06a32
